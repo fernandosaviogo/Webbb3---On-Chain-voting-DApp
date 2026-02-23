@@ -15,8 +15,165 @@
   border-color: red;
 }
 
+/*
 .message {
   color: gray;
   margin-left: 10px;
   margin-top: 10px;
+}*/
+
+/* CSS da tela login */ 
+
+.bg-web3 {
+  background: linear-gradient(135deg, #FFBF03 0%, #ff9f00 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.web3-card {
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+.web3-title {
+  font-weight: 700;
+  font-size: 3rem;
+  background: linear-gradient(90deg, #ffffff, #ffd700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.web3-btn {
+  background: linear-gradient(90deg, #111, #000);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+
+.web3-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+/* CSS da tela Vote */ 
+
+/* ===== FUNDO ===== */
+.bg-web3 {
+  background: linear-gradient(135deg, #FFBF03 0%, #ff9f00 100%);
+  min-height: 100vh;
+  padding-top: 60px;
+}
+
+/* ===== TITULO ===== */
+.voting-screen h1 {
+  font-weight: 700;
+  background: linear-gradient(90deg, #111, #000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ===== TEXTO ===== */
+.voting-screen p {
+  color: #1a1a1a;
+  font-weight: 500;
+}
+
+/* ===== CARD DOS PARTICIPANTES ===== */
+.voting-card {
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  padding: 25px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  transition: 0.3s ease;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  color: white;
+  max-width: 320px;
+}
+
+.voting-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+}
+
+.voting-row {
+  gap: 60px;
+  margin-top: 40px;
+}
+
+/* ===== IMAGEM ===== */
+.voting-card img {
+  border-radius: 16px;
+  margin-bottom: 15px;
+}
+
+/* ===== BOTÃO WEB3 ===== */
+.btn-web3 {
+  background: linear-gradient(90deg, #000, #111);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  transition: 0.3s ease;
+  font-weight: 600;
+}
+
+.btn-web3:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+/* ===== BOTÃO RESULTADO ===== */
+.btn-result {
+  background: #222;
+  color: #FFBF03;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+/* ===== MENSAGEM FINAL ===== */
+.message {
+  font-weight: 600;
+  margin-top: 20px;
+  color: #111;
+}
+
+/* ====== TEXTO TELA VOTE ====== */
+
+/* ===== HEADER WEB3 ===== */
+
+.header-block {
+  margin-bottom: 70px;
+}
+
+/* TÍTULO GRANDE E IMPACTANTE */
+.web3-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+
+  background: linear-gradient(90deg, #000000, #1a1a1a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* SUBTÍTULO */
+.web3-subtitle {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+/* DESCRIÇÃO */
+.web3-description {
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: 500;
 }
